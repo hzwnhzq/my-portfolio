@@ -4,110 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hazwan Haziq's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-5">
         <h1>Hazwan Haziq Bin Shamsudin</h1>
         <p>Software Engineer | Full-Stack Developer</p>
         <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#achievements">Achievements</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     
-    <main>
-        <section id="about">
+    <main class="container my-5">
+        <section id="about" class="my-5">
             <h2>About Me</h2>
             <p>Experienced Software Engineer with a Bachelor's degree in Information Technology from the University of Malaya. Skilled in full-stack development, project management, and technical support. Proficient in PHP, JavaScript, HTML, jQuery, and database management. Proven track record of delivering high-quality web applications and optimizing workflows. Seeking a dynamic role to leverage expertise in software development and contribute effectively to innovative projects.</p>
         </section>
         
-        <section id="skills">
+        <section id="skills" class="my-5">
             <h2>Skills</h2>
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Teamwork</li>
-                <li>Continuous Learning</li>
-                <li>Problem-solving</li>
-                <li>Collaboration</li>
-                <li>Communication</li>
-                <li>Time Management</li>
-            </ul>
-            <h3>Technical Skills</h3>
-            <ul>
-                <li>Programming Languages: PHP, JavaScript</li>
-                <li>Web Technologies: HTML, jQuery</li>
-                <li>Testing: Unit Testing</li>
-                <li>Graphic Design Tools: Canva, Adobe Photoshop, Illustrator, Premiere Pro, Lightroom</li>
-                <li>Database Management: MySQL, PostgreSQL</li>
-                <li>Full-Stack Development: Front-end and Back-end Integration</li>
-            </ul>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Soft Skills</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">Teamwork</li>
+                        <li class="list-group-item">Continuous Learning</li>
+                        <li class="list-group-item">Problem-solving</li>
+                        <li class="list-group-item">Collaboration</li>
+                        <li class="list-group-item">Communication</li>
+                        <li class="list-group-item">Time Management</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Technical Skills</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">Programming Languages: PHP, JavaScript</li>
+                        <li class="list-group-item">Web Technologies: HTML, jQuery</li>
+                        <li class="list-group-item">Testing: Unit Testing</li>
+                        <li class="list-group-item">Graphic Design Tools: Canva, Adobe Photoshop, Illustrator, Premiere Pro, Lightroom</li>
+                        <li class="list-group-item">Database Management: MySQL, PostgreSQL</li>
+                        <li class="list-group-item">Full-Stack Development: Front-end and Back-end Integration</li>
+                    </ul>
+                </div>
+            </div>
         </section>
         
-        <section id="experience">
+        <section id="experience" class="my-5">
             <h2>Experience</h2>
-            <div>
-                <h3>Executive Officer (IT) - Center of Information Technology (PTM), University Malaya</h3>
-                <p>May 2023 - Present</p>
-                <ul>
-                    <li>Managed project progress and adapted work methods for timely project completion.</li>
-                    <li>Participated in API development for non-purchase order invoices.</li>
-                    <li>Developed a functional web application for UM F1RST, focusing on payment modules using PHP, JavaScript, HTML, and jQuery.</li>
-                    <li>Assisted the Technical Team in project deployment through debugging, configuration, testing, and UAT.</li>
-                    <li>Prepared comprehensive project documentation.</li>
-                    <li>Implemented database operations using SQL for data management.</li>
-                </ul>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Executive Officer (IT) - Center of Information Technology (PTM), University Malaya</h3>
+                    <p class="card-text">May 2023 - Present</p>
+                    <ul>
+                        <li>Managed project progress and adapted work methods for timely project completion.</li>
+                        <li>Participated in API development for non-purchase order invoices.</li>
+                        <li>Developed a functional web application for UM F1RST, focusing on payment modules using PHP, JavaScript, HTML, and jQuery.</li>
+                        <li>Assisted the Technical Team in project deployment through debugging, configuration, testing, and UAT.</li>
+                        <li>Prepared comprehensive project documentation.</li>
+                        <li>Implemented database operations using SQL for data management.</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3>Full Stack Developer - UM Innovation Sdn Bhd</h3>
-                <p>Sept 2022 – Mar 2023</p>
-                <ul>
-                    <li>Designed and implemented a setup page for the UM F1RST Project's Purchase Order process.</li>
-                    <li>Managed and organized User Acceptance Testing (UAT) scripts.</li>
-                    <li>Optimized the functionality, security, and performance of the UM F1RST website.</li>
-                    <li>Collaborated with cross-functional teams to enhance the UM F1RST Project.</li>
-                    <li>Contributed to team meetings and brainstorming sessions.</li>
-                </ul>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Full Stack Developer - UM Innovation Sdn Bhd</h3>
+                    <p class="card-text">Sept 2022 – Mar 2023</p>
+                    <ul>
+                        <li>Designed and implemented a setup page for the UM F1RST Project's Purchase Order process.</li>
+                        <li>Managed and organized User Acceptance Testing (UAT) scripts.</li>
+                        <li>Optimized the functionality, security, and performance of the UM F1RST website.</li>
+                        <li>Collaborated with cross-functional teams to enhance the UM F1RST Project.</li>
+                        <li>Contributed to team meetings and brainstorming sessions.</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3>Protege Program - Petronas Sdn Bhd</h3>
-                <p>May 2022 - Sep 2022</p>
-                <ul>
-                    <li>Developed foundational UI/UX skills for front-end web development using HTML.</li>
-                    <li>Created engaging social media content using Adobe Photoshop, Illustrator, Premiere Pro, and Canva.</li>
-                    <li>Generated detailed daily reports on ongoing design projects.</li>
-                    <li>Participated in team meetings and brainstorming sessions.</li>
-                    <li>Received positive feedback for meeting project deadlines.</li>
-                </ul>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Protege Program - Petronas Sdn Bhd</h3>
+                    <p class="card-text">May 2022 - Sep 2022</p>
+                    <ul>
+                        <li>Developed foundational UI/UX skills for front-end web development using HTML.</li>
+                        <li>Created engaging social media content using Adobe Photoshop, Illustrator, Premiere Pro, and Canva.</li>
+                        <li>Generated detailed daily reports on ongoing design projects.</li>
+                        <li>Participated in team meetings and brainstorming sessions.</li>
+                        <li>Received positive feedback for meeting project deadlines.</li>
+                    </ul>
+                </div>
             </div>
         </section>
         
-        <section id="education">
+        <section id="education" class="my-5">
             <h2>Education</h2>
-            <div>
-                <h3>Bachelor of Information Technology (Multimedia Computing) - University of Malaya</h3>
-                <p>2018 - 2022 | CGPA: 3.63</p>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Bachelor of Information Technology (Multimedia Computing) - University of Malaya</h3>
+                    <p class="card-text">2018 - 2022 | CGPA: 3.63</p>
+                </div>
             </div>
-            <div>
-                <h3>Science PST - Module II - Negeri Sembilan Matriculation College</h3>
-                <p>2017 – 2018 | CGPA: 3.40</p>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Science PST - Module II - Negeri Sembilan Matriculation College</h3>
+                    <p class="card-text">2017 – 2018 | CGPA: 3.40</p>
+                </div>
             </div>
         </section>
         
-        <section id="achievements">
+        <section id="achievements" class="my-5">
             <h2>Achievements</h2>
-            <ul>
-                <li>Dean's Award for achieving a GPA of 3.75 or above.</li>
+            <ul class="list-group">
+                <li class="list-group-item">Dean's Award for achieving a GPA of 3.75 or above.</li>
             </ul>
         </section>
         
-        <section id="contact">
+        <section id="contact" class="my-5">
             <h2>Contact</h2>
             <p>Phone: +60173119159</p>
             <p>Email: <a href="mailto:hzwnhzq99@gmail.com">hzwnhzq99@gmail.com</a></p>
@@ -115,8 +133,12 @@
         </section>
     </main>
     
-    <footer>
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Hazwan Haziq Bin Shamsudin</p>
     </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
